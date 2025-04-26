@@ -1,6 +1,7 @@
 {
-    "redirects": [
-      { "source": "/", "destination": "/ko/", "permanent": true }
-    ]
-  }
-  
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/", "destination": "/ko/", "permanent": true }
+  ]
+}
