@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <title>Document</title>
+</head>
+<body>
+    <article id="mobile-nav">
+        <div class="mobile-nav-head">
+            <a class="logo-div" href="/ja/">
+                <img alt="logo-houber" src="/public/houber.png">
+            </a>
+            <div id="mobile-menu-btn" onclick="menuOff()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <rect width="19.0137" height="1.90137" rx="0.950685" transform="matrix(0.707103 0.70711 -0.707103 0.70711 1.34424 0)" fill="#2F2F2F"/>
+                    <rect width="19.0137" height="1.90137" rx="0.950685" transform="matrix(0.707103 -0.70711 0.707104 0.70711 0.210938 13.6553)" fill="#2F2F2F"/>
+                </svg>
+            </div>
+        </div>
+        <nav>
+            <li><a href="/ja/">기업소개</a></li>
+            <li><a href="/ja/startups/">일본 창업</a></li>
+            <li><a href="/ja/sale/">일본 매매</a></li>
+            <li><a class="active" href="/ja/question/">자주 묻는 질문</a></li>
+            <hr style="border: 1px solid #D9D9D9; width: 64px;">
+            <li><a class="active" href="/ja/question/">한국어</a></li>
+            <li><a href="/ja/question/">日本語</a></li>
+            <a class="contact-us" target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div>문의하기</div></a>
+        </nav>
+        </article>
+    <header>
+        <div class="header-flex">
+            <a class="logo-div" href="/ja/">
+                <img alt="logo-houber" src="/public/houber.png">
+            </a>
+            <aside>
+                <li><a href="/ja/" style="color: #ffffff; text-decoration-color: #ffffff;">기업소개</a></li>
+                <li><a href="/ja/startups/" style="color: #ffffff; text-decoration-color: #ffffff;">일본 창업</a></li>
+                <li><a href="/ja/sale/" style="color: #ffffff; text-decoration-color: #ffffff;">일본 매매</a></li>
+                <li><a class="active" href="/ja/question/" style="color: #ffffff; text-decoration-color: #ffffff;">자주 묻는 질문</a></li>
+            </aside>
+            <div class="setting-div">
+                <a target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div class="contact-us" style="color: #ffffff;">문의하기</div></a>
+                <a class="lang-container">
+                    <div class="lang-setting" style="color: #ffffff;" onclick="langSet()">
+                        한국어
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="0.6rem" viewBox="0 0 1rem 0.6rem" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.576127 0.576127C0.810441 0.341812 1.19034 0.341812 1.42465 0.576127L5.00039 4.15186L8.57613 0.576127C8.81044 0.341812 9.19034 0.341812 9.42465 0.576127C9.65897 0.810441 9.65897 1.19034 9.42465 1.42465L5.42465 5.42465C5.19034 5.65897 4.81044 5.65897 4.57613 5.42465L0.576127 1.42465C0.341812 1.19034 0.341812 0.810441 0.576127 0.576127Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                    <div id="lang-dropdown">
+                        <div onclick="location.href='/ja/question/'">한국어</div>
+                        <div onclick="location.href='/ja/question/'">日本語</div>
+                    </div>
+                </a>
+            </div>
+            <div id="menu-btn" onclick="menuOn()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                    <rect width="20" height="2" rx="1" fill="#ffffff"/>
+                    <rect y="6" width="20" height="2" rx="1" fill="#ffffff"/>
+                    <rect y="12" width="20" height="2" rx="1" fill="#ffffff"/>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <section id="intro">
+        <h1>일본 매매·창업의 시작,<br>
+            하우버 비즈니스와 함께하세요.</h1>
+    </section>
+    <section id="question">
+        <h2>자주 묻는 질문</h2>
+        <div class="question-category">
+            <div class="category active" onclick="aaCategory(this)">창업</div>
+            <div class="category" onclick="bbCategory(this)">매매</div>
+        </div>
+        <div class="question-div aa">
+            <div class="question">Q. 일본에서 사업을 하려면 어떤 비자가 필요하나요?</div>
+            <div class="answer"><p><span>A.</span> 
+                일반적으로 일본 창업을 위해서는 **경영·관리 비자(経営・管理ビザ)**가 필요합니다.
+                일본 법인 설립 후 일정 금액의 자본금(보통 500만엔 이상), 실제 사무실 확보, 사업계획서 등이 필요합니다.
+                서류 준비가 많고 절차가 까다롭기 때문에 전문 행정서사 도움을 받는 것이 좋습니다.</p>
+            </div>
+        </div>
+        <div class="question-div bb">
+            <div class="question">Q. 일본 부동산은 비자가 없어도 매매가 가능한가요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                일본 부동산은 비자 없이도 외국인이 구매할 수 있는 방법은 있습니다. 
+                단, 대출을 이용하려면 법인 설립이나 영주권 등 일정 조건이 필요합니다.</p>
+            </div>
+        </div>
+        <div class="question-div aa">
+            <div class="question">Q. 일본에서 창업을 위해서는 자본금으로 꼭 500만엔이 필요하나요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                법적으로는 1엔부터 설립 가능하지만, 경영비자 발급을 위해서는 500만엔 이상이 일반적 기준입니다.
+                    너무 적을 경우 심사에서 부정적으로 평가될 수 있습니다.</p>
+            </div>
+        </div>
+        <div class="question-div bb">
+            <div class="question">Q. 일본 현지의 부동산 대출은 어떻게 받을 수 있나요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                대출을 받으려면 일반적으로 법인 설립 또는 영주권이 필요합니다.
+                초기자금은 조건에 따라 일부 필요할 수 있습니다.<br>
+                
+                - 법인 대출: 결산 3년 이상 시, 금리 1~2.5%대<br>
+                - 개인 대출의 경우, 영주권자: 금리 0.4~1%, 대출금액 최대 100%까지 가능</p>
+            </div>
+        </div>
+        <div class="question-div bb">
+            <div class="question">Q. 부동산 투자로 안정적인 수익을 얻기 위해서는 어떤 물건을 선택해야 합니까?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                정적인 수익을 원한다면 역세권·고입주율·신축 위주로, 높은 수익성을 원한다면 저가 리폼 가능 매물 위주로 검토하되, 되팔 가능성까지 고려해 건축년도도 함께 판단하는 것이 중요합니다.
+            </p>
+            </div>
+        </div>
+        <div class="question-div aa">
+            <div class="question">Q. 일본 창업을 위해서 사무실은 꼭 있어야 하나요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                네, 경영비자 신청 조건 중 하나가 실제 사업장이 확보되어 있어야 합니다. 가상오피스는 불가하고, 임대계약서, 사진, 입구 간판 등 실체를 증명할 수 있어야 합니다.
+            </p>
+            </div>
+        </div>
+        <div class="question-div bb">
+            <div class="question">Q. 일본 부동산 매매 절차는 어떻게 되나요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                부동산 상담부터 계약, 대출, 결제, 인도까지 단계별로 진행되며, 비자에 따라 달라짐은 참고 부탁드립니다.</p>
+            </div>
+        </div>
+        <div class="question-div aa">
+            <div class="question">Q. 점포를 구하고 오피스를 같이 두는 형태로도 괜찮을까요?</div>
+            <div class="answer">
+                <p>
+                <span>A.</span>
+                불가합니다. 점포와 오피스는 별개의 사업체로 구성되어야 하며 입구가 같아서는 안 됩니다. 같은 공간에서 커텐으로 공간을 분리한다거나 하는 행위도 일절 허용되지 않습니다. 
+            </p>
+            </div>
+        </div>
+        <div class="question-div bb">
+            <div class="question">Q. 부동산 수익형 물건 관리도 대행해주시나요? </div>
+            <div class="answer"><p>
+                <span>A.</span>
+                일본 부동산은 관리회사가 뒤에 따르는게 일반적이며, 월세의 5~10%를 관리수수료로 지불하는 경우가 많습니다. 일본 부동산 구매 후에는 인지세·등기비·중개수수료 등 초기 비용과 함께, 보유 시 취득세·고정자산세·소득세·주민세, 매각 시 양도소득세 및 원천징수 등의 세금이 발생합니다.
+            </p>
+            </div>
+        </div>
+        <div class="question-div aa">
+            <div class="question">Q. 일본 창업을 위해 자본금 500만엔을 사용해서 사무실을 구해도 괜찮을까요?</div>
+            <div class="answer"><p>
+                <span>A.</span>
+                괜찮니다만 합격률에 문제가 생길 수 있기 떄문에 비자 심사가 합격이 될 때까지 되도록 자본금은 건드리지 않는것이 가장 좋습니다. 사무실비용 등등 비자가 나올떄까지 필요한 금액은 따로 설정하여 별도로 사용하시길 추천 드립니다.
+            </p>
+            </div>
+        </div>
+    </section>
+    <section id="closer">
+        <h2 style="margin-bottom: 2.6rem;">
+            일본의 매매와 창업 하우버가 함께합니다.</h2>
+        <p style="max-width: 80%; margin-bottom: 5.6rem; color: #d4d4d4;">
+            데이터 기반의 상권분석과 전문 컨설팅으로 
+            성공적인 시작을 함께합니다.
+            창업, 매매에 대한 궁금한 점은
+            언제든지 문의해주세요.
+        </p>
+        <a target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div class="detail-btn">문의하기
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                <path d="M1 1H10M10 1V10M10 1L1 10" stroke="white" stroke-linecap="round"/>
+            </svg>
+        </div></a>
+    </section>
+    <footer>
+        <div class="logo-div">
+            <a  href="https://aders-international.com/">
+                <img alt="logo-https://aders-international.com" src="/public/footer/aders-logo.svg">
+            </a>
+        </div>
+        <div class="footer-flex">
+            <div class="foot footer-left">
+                <p style="font-size: 2.0rem; line-height: 3rem;"><b>(주)에이더스</b></p>
+                <div>
+                    <p><b>대표</b> 이지형</p>
+                    <p><b>위치</b> 〒550-0004 大阪府大阪市西区靱本町1-7-17 7F</p>
+                </div>
+            </div>
+            <div class="foot footer-middle">
+                <div>
+                    <p><b>택지건물거래업 면허번호</b> 大阪府知事(1)第6236 1号</p>
+                    <p><b>행정서사 등록번호</b> 24261578</p>
+                </div>
+                <div>
+                    <p><b>TEL</b> 06-6655-0328</p>
+                    <p><b>FAX</b> 06-6655-0329</p>
+                    <p><b>EMAIL</b> property@aders-international.com</p>
+                </div>
+            </div>
+            <div class="foot footer-right" gap="30rem">
+                <div id="more-site">
+                    FAMILY SITE +
+                </div>
+                <div class="footer-icon">
+                    <a><div id="instagram"></div></a>
+                    <a><div id="blog"></div></a>
+                    <a><div id="youtube"></div></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+<script src="/js/main.js"></script>
+<script src="/js/question.js"></script>
+
+</html>

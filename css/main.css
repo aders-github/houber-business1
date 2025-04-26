@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+html,body {
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Pretendard-Regular', sans-serif;
+    position: relative;
+    background: #fff;
+    color: #414141;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+    word-break: keep-all;
+}
+body.no-scroll {
+    overflow-y: hidden;
+    height: 100vh;
+  }
+img {
+    -webkit-user-drag: none;
+}
+::-webkit-scrollbar {
+    width: 4px; /* 세로 스크롤바의 너비 */
+    height: 4px; /* 가로 스크롤바의 높이 */
+}
+::-webkit-scrollbar-track {
+    background: #ffffff; /* 트랙의 기본 배경색 */
+}
+::-webkit-scrollbar-thumb {
+    background: #DADFEB; /* 핸들의 색상 */
+    border-radius: 10px; /* 핸들의 모서리 둥글게 */
+    border: none /* 핸들의 외곽선 */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+h1 {
+    font-size: 2.6rem;
+    margin: 0;
+    line-height: 3.8rem;
+}
+h2 {
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    margin: 0;
+}
+h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1.6rem;
+    margin: 0;
+    line-height: 2.6rem;
+}
+.p-x {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.p-xs {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+.p-xxs {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.detail-btn{
+    cursor: pointer;
+    box-sizing: border-box;
+    min-width: 16rem;
+    max-width: 16rem;
+    min-height: 5rem;
+    max-height: 5rem;
+    background-color: #0222B4;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+/* 초기 상태: 화면 위로 이동 */
+.popUp {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.6s ease, transform 0.6s ease; /* 부드러운 애니메이션 */
+}
+
+/* 화면에 보일 때 활성화 */
+.popUp.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (min-width: 768px) {
+    html,body {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html,body {
+        font-size: 12px;
+    }
+}
+#scroll-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    bottom: 30px;
+    left: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    gap: 6px;
+    animation: scrollMove 1.5s ease-in-out infinite;
+}
+#scroll-box span {
+    font-size: 12px;
+}
+#scroll-box div{
+    height: 75px;
+    width: 1px;
+    border-left: 1px solid #ffffff;
+    
+}
+
+@keyframes scrollMove {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

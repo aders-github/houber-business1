@@ -1,0 +1,136 @@
+footer {
+    background-color: #ffffff;
+    display: flex;
+    max-width: 80%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+    margin: 4rem 0 4rem 3rem;;
+}
+
+footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+footer .logo-div {
+    display: block;
+    width: 123px;
+    height: 48px;
+}
+footer .logo-div a {
+    width: 123px;
+    height: 48px;
+}
+footer .logo-div a img {
+    max-width: 123px;
+    min-width: 123px;
+    max-height: 48px;
+    min-height: 48px;
+}
+footer div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+footer p {
+    font-size: 1.2rem;
+    line-height: normal;
+    color: #333d4bb2;
+}
+footer p b {
+    color: #333D4B;
+}
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+.footer-icon a{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-flex .foot {
+    display: flex;
+    gap: 3rem;
+    max-width: 27rem;
+    max-height: 15rem;
+}
+.footer-icon a div {
+    width: 3rem;
+    height: 3rem;
+}
+#more-site {
+    display: block;
+    width: 11.4rem;
+    min-height: 3.8rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+    outline: 1px solid #11111124;
+    outline-offset: -1px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #414141;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+#instagram {
+    background: url(/public/footer/shortcut_instagram.svg) no-repeat center center;
+}
+#blog {
+    background: url(/public/footer/shortcut_blog.svg) no-repeat center center;
+}
+#youtube {
+    background: url(/public/footer/shortcut_youtube.svg) no-repeat center center;
+}
+@media screen and (min-width: 768px) {
+    footer {
+        justify-content: center;
+        margin: 6rem auto;
+        padding: 0 1rem;
+        max-width: 1300px;
+        word-break: keep-all;
+        white-space: nowrap;
+    }
+    footer .footer-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .foot.footer-middle {
+        max-width: 27rem;
+        margin-left: 10rem;
+    }
+    footer div {
+        gap: 1rem;
+    }
+    .foot.footer-right {
+        align-items: flex-end;
+    }
+    footer .logo-div {
+        display: block;
+        width: 140px;
+        height: 54px;
+    }
+    footer .logo-div a {
+        width: 140px;
+        height: 54px;
+    }
+    footer .logo-div a img {
+        max-width: 140px;
+        min-width: 140px;
+        max-height: 54px;
+        min-height: 54px;
+    }
+    
+}
