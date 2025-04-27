@@ -9,9 +9,9 @@
     overflow-y: hidden;
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 100vh;
-    max-height: 100vh;
-    gap: 200px;
+    min-height: 120vh;
+    max-height: 120vh;
+    gap: 30px;
     color: #ffffff;
     background: url(/assets/sale/intro.png) center/cover no-repeat;
 }
@@ -79,6 +79,9 @@
     #intro {
         flex-direction: row;
         justify-content: center;
+        min-height: 100vh;
+        max-height: 100vh;
+        gap: 200px;
     }
     #intro .intro-flex {
         max-width: 468px;
@@ -241,7 +244,6 @@
     align-items: left;
     gap: 2rem;
     max-width: 443px;
-    max-height: 220px;
 }
 #news1 .news-img {
     width: 32.7rem;
@@ -299,7 +301,6 @@
 .news-text {
     display: flex;
     max-width: 440px;
-    max-height: 220px;
     gap: 2rem;
     flex-direction: column;
 }
