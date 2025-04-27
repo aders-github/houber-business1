@@ -8,3 +8,18 @@ body {
     font-family: 'Pretendard-JP', sans-serif;
     word-break: break-all !important;
 }
+#svg1 {
+    background: url(/assets/sale/jnews1-1.svg) center/contain no-repeat !important;
+}
+#svg2 {
+    background: url(/assets/sale/news2-1.svg) center/contain no-repeat !important;
+}
+@media screen and (min-width: 784px) {
+    #svg1 {
+        background: url(/assets/sale/jnews1.svg) center/contain no-repeat !important;
+    }
+    #svg2 {
+        background: url(/assets/sale/jnews2.svg) center/contain no-repeat !important;
+    }
+    
+}
