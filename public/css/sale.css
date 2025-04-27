@@ -13,7 +13,7 @@
     max-height: 100vh;
     gap: 200px;
     color: #ffffff;
-    background: url(/public/sale/intro.png) center/cover no-repeat;
+    background: url(/assets/sale/intro.png) center/cover no-repeat;
 }
 #intro .intro-flex {
     opacity: 0;
@@ -252,7 +252,7 @@
     outline-offset: -1px;
 }
 #svg1 {
-    background: url(/public/sale/news1-1.svg) center/contain no-repeat;
+    background: url(/assets/sale/news1-1.svg) center/contain no-repeat;
 }
 @media screen and (min-width: 784px) {
     #news1 {
@@ -271,7 +271,7 @@
         outline: none
     }
     #svg1 {
-        background: url(/public/sale/news1.svg) center/contain no-repeat;
+        background: url(/assets/sale/news1.svg) center/contain no-repeat;
     }
     
 }
@@ -364,7 +364,7 @@
     outline-offset: -1px;
 }
 #svg2 {
-    background: url(/public/sale/news2-1.svg) center/contain no-repeat;
+    background: url(/assets/sale/news2-1.svg) center/contain no-repeat;
 }
 @media screen and (min-width: 784px) {
     #news2 {
@@ -393,7 +393,7 @@
     }
     
     #svg2 {
-        background: url(/public/sale/news2.svg) center/contain no-repeat;
+        background: url(/assets/sale/news2.svg) center/contain no-repeat;
     }
     
 }
@@ -455,7 +455,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: url(/public/sale/closer.png) center / cover no-repeat;
+    background: url(/assets/sale/closer.png) center / cover no-repeat;
     color: #ffffff;
     gap: 2rem;
 }

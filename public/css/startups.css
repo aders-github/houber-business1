@@ -13,7 +13,7 @@
     max-height: 100vh;
     gap: 200px;
     color: #ffffff;
-    background: url(/public/startups/intro.png) center/cover no-repeat;
+    background: url(/assets/startups/intro.png) center/cover no-repeat;
 }
 #intro .intro-flex {
     opacity: 0;
@@ -143,7 +143,7 @@
     display: block;
     justify-content: center;
     width: 100vw;
-    background: url(/public/startups/content.png) center/cover no-repeat;
+    background: url(/assets/startups/content.png) center/cover no-repeat;
     color: #ffffff;
     text-align: center;
     box-sizing: border-box;
@@ -352,7 +352,7 @@
     flex-direction: column;
     max-width: 100%;
     margin: 0 auto;
-    background: url(/public/startups/bridege2.png) center/cover no-repeat;
+    background: url(/assets/startups/bridege2.png) center/cover no-repeat;
     color: #ffffff;
     min-height: 57.2rem;
     max-height: 57.2rem;
@@ -545,7 +545,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: url(/public/startups/closer.png) center / cover no-repeat;
+    background: url(/assets/startups/closer.png) center / cover no-repeat;
     color: #ffffff;
     gap: 2rem;
 }

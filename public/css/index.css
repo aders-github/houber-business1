@@ -26,7 +26,7 @@
 }
 .logo {
     top: calc(50% - 12px);
-    background: url(/public/houber.png) center/contain no-repeat;
+    background: url(/assets/assets/houber.png) center/contain no-repeat;
 }
 .txt {
     top: 50%;
@@ -155,14 +155,14 @@
     z-index: 2;
     height: 50vh;
     width: 100%;
-    background: url(/public/main/startups.png) center/cover no-repeat;
+    background: url(/assets/main/startups.png) center/cover no-repeat;
     
 }
 .split-right {
     z-index: 1;
     height: 50vh;
     width: 100%;
-    background: url(/public/main/residential.png) center/cover no-repeat;
+    background: url(/assets/main/residential.png) center/cover no-repeat;
 }
 @media (min-width: 1024px) {
     #split-banner {
@@ -308,7 +308,7 @@
 }
 /* ============================ */
 #bridge2 {
-    background: url(/public/main/management_visa.png) center/cover no-repeat;
+    background: url(/assets/main/management_visa.png) center/cover no-repeat;
     width: 100vw;
     height: 100vh;
     max-height: 760px;
@@ -406,6 +406,6 @@
     height: 50rem;
     text-align: center;
     align-content: center;
-    background: url(/public/main/closer.png) center/cover no-repeat;
+    background: url(/assets/main/closer.png) center/cover no-repeat;
     color: #ffffff;
 }

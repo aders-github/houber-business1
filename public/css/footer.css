@@ -85,13 +85,13 @@ footer p b {
     /* cursor: pointer; */
 }
 #instagram {
-    background: url(/public/footer/shortcut_instagram.svg) no-repeat center center;
+    background: url(/assets/footer/shortcut_instagram.svg) no-repeat center center;
 }
 #blog {
-    background: url(/public/footer/shortcut_blog.svg) no-repeat center center;
+    background: url(/assets/footer/shortcut_blog.svg) no-repeat center center;
 }
 #youtube {
-    background: url(/public/footer/shortcut_youtube.svg) no-repeat center center;
+    background: url(/assets/footer/shortcut_youtube.svg) no-repeat center center;
 }
 @media screen and (min-width: 768px) {
     footer {
