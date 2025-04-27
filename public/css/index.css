@@ -27,6 +27,7 @@
 .logo {
     top: calc(50% - 12px);
     background: url(/assets/houber.png) center/contain no-repeat;
+    object-fit: cover;
 }
 .txt {
     top: 50%;
