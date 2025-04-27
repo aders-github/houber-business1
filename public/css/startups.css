@@ -79,8 +79,6 @@
     #intro {
         flex-direction: row;
         justify-content: center;
-        min-height: 100vh;
-        max-height: 100vh;
         gap: 200px;
     }
     #intro .intro-flex {
