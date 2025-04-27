@@ -1,5 +1,15 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/$1" }
-    ]
-  }
+  "redirects": [
+    { "source": "/", "destination": "/ko/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/ko", "destination": "/ko/index.html" },
+    { "source": "/ko/", "destination": "/ko/index.html" },
+    { "source": "/ko/sale", "destination": "/ko/sale/index.html" },
+    { "source": "/ko/sale/", "destination": "/ko/sale/index.html" },
+    { "source": "/ko/startups", "destination": "/ko/startups/index.html" },
+    { "source": "/ko/startups/", "destination": "/ko/startups/index.html" },
+    { "source": "/ko/question", "destination": "/ko/question/index.html" },
+    { "source": "/ko/question/", "destination": "/ko/question/index.html" }
+  ]
+}
