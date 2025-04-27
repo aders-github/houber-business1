@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pretendard-JP' !important;
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2305@1.0/PretendardJP-Regular.woff2') format('woff2') !important;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'Pretendard-JP', sans-serif;
+    word-break: break-all !important;
+}
