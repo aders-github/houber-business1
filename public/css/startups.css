@@ -11,7 +11,7 @@
     max-width: 100vw;
     min-height: 120vh;
     max-height: 120vh;
-    gap: 30px;
+    gap: 100px;
     color: #ffffff;
     background: url(/assets/startups/intro.png) center/cover no-repeat;
 }
