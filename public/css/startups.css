@@ -9,8 +9,8 @@
     overflow-y: hidden;
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 120vh;
-    max-height: 120vh;
+    min-height: 100vh;
+    max-height: 100vh;
     gap: 100px;
     color: #ffffff;
     background: url(/assets/startups/intro.png) center/cover no-repeat;
