@@ -1,0 +1,35 @@
+#s1 {
+    left: calc(50% - 31px);
+}
+
+#s2 {
+    left: calc(50% - 120px);
+}
+
+#s3 {
+    left: calc(50% - 33px);
+}
+#s4 {
+    left: calc(50% - 97px);
+}
+
+@media screen and (min-width: 984px) {
+
+    #s1 {
+        top: calc(50% - 153px);
+        left: calc(50% + 14px);
+    }
+    #s2 {
+        top: calc(50% - 113px);
+        left: calc(50% - 103px);
+    }
+    #s3 {
+        top: calc(50% + 10px);
+        left: calc(50% + 7px);
+    }
+    #s4 {
+        top: calc(50% + 63px);
+        left: calc(50% - 82px);
+    }
+    
+}
