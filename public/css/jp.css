@@ -12,7 +12,7 @@ body {
     background: url(/assets/sale/jnews1-1.svg) center/contain no-repeat !important;
 }
 #svg2 {
-    background: url(/assets/sale/news2-1.svg) center/contain no-repeat !important;
+    background: url(/assets/sale/jnews2-1.svg) center/contain no-repeat !important;
 }
 @media screen and (min-width: 784px) {
     #svg1 {
