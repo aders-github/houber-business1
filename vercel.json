@@ -10,6 +10,14 @@
     { "source": "/ko/startups", "destination": "/ko/startups/index.html" },
     { "source": "/ko/startups/", "destination": "/ko/startups/index.html" },
     { "source": "/ko/question", "destination": "/ko/question/index.html" },
-    { "source": "/ko/question/", "destination": "/ko/question/index.html" }
+    { "source": "/ko/question/", "destination": "/ko/question/index.html" },
+    { "source": "/ja", "destination": "/ja/index.html" },
+    { "source": "/ja/", "destination": "/ja/index.html" },
+    { "source": "/ja/sale", "destination": "/ja/sale/index.html" },
+    { "source": "/ja/sale/", "destination": "/ja/sale/index.html" },
+    { "source": "/ja/startups", "destination": "/ja/startups/index.html" },
+    { "source": "/ja/startups/", "destination": "/ja/startups/index.html" },
+    { "source": "/ja/question", "destination": "/ja/question/index.html" },
+    { "source": "/ja/question/", "destination": "/ja/question/index.html" }
   ]
 }
