@@ -1,16 +1,25 @@
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-family: 'Pretendard';
+    src: url('/fonts/Pretendard-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
-}
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('/fonts/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
 html,body {
     font-size: 10px;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Pretendard-Regular', sans-serif;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Noto Sans', sans-serif;
     position: relative;
     background: #fff;
     color: #414141;
