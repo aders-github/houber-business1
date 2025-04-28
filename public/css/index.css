@@ -30,7 +30,7 @@
     object-fit: cover;
 }
 .txt {
-    top: 50%;
+    top: calc(50% - 8px);
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -55,7 +55,9 @@
         min-height: 66px;
         max-height: 66px;
     }
+
     .txt {
+        top: calc(50% - 11px);
         font-size: 50px;
     }
     .logo.show {
