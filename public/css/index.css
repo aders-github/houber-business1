@@ -30,7 +30,7 @@
     object-fit: cover;
 }
 .txt {
-    top: calc(50% - 8px);
+    top: calc(50% - 5px);
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -57,7 +57,7 @@
     }
 
     .txt {
-        top: calc(50% - 11px);
+        top: calc(50% - 5px);
         font-size: 50px;
     }
     .logo.show {
