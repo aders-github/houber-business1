@@ -27,7 +27,7 @@ body {
     font-size: 1.2rem !important;
 }
 .txt {
-    top: calc(50% -9px);
+    top: calc(50% -7px);
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
