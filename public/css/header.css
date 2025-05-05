@@ -28,6 +28,7 @@ header.white {
     display: none;
 }
 #nav-list ul {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -217,20 +218,20 @@ header.white {
     border: none;
     box-shadow: none;
 }
-#mobile-nav-list li {
+#mobile-nav-list ul li {
     height: 40px;
     list-style-type: none;
     cursor: pointer;
     align-content: center;
 }
-#mobile-nav-list li a {
+#mobile-nav-list ul li a {
     padding: 15px 8px;
     font-size: 20px;
     white-space: nowrap;
     word-break: keep-all;
 }
 
-#mobile-nav-list li a:hover {
+#mobile-nav-list ul li a:hover {
     font-weight: bold;
     background-color: #ffffff13;
     border-radius: 4px;
@@ -250,7 +251,7 @@ header.white {
     border-radius: 4px;
     box-sizing: border-box;
 }
-#mobile-nav-list li a.active {
+#mobile-nav-list ul li a.active {
     font-weight: bold;
     text-decoration: underline 1px solid #000000;
     text-underline-offset: 10px;
