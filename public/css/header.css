@@ -75,8 +75,10 @@ header.white {
 }
 .logo-div img {
     box-sizing: border-box;
+    width: 72px;
     min-width: 72px;
     max-width: 72px;
+    height: 30px;
     min-height: 30px;
     max-height: 30px;
 }
