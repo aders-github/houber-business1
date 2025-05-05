@@ -60,31 +60,35 @@
                 </svg>
             </div>
         </div>
-        <nav>
-            <li><a href="/ja/">企業紹介</a></li>
-            <li><a class="active" href="/ja/startups/">創業</a></li>
-            <li><a href="/ja/sale/">売買</a></li>
-            <li><a href="/ja/question/">よくある質問</a></li>
-            <hr style="border: 1px solid #D9D9D9; width: 64px;">
-            <li><a class="active" href="/ja/startups/">日本語</a></li>
-            <li><a href="/ko/startups">한국어</a></li>
-            <a class="contact-us" target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div>問い合わせ</div></a>
+        <nav id="mobile-nav-list" aria-label="mobile-nav">
+            <ul>
+                <li><a href="/ja/">企業紹介</a></li>
+                <li><a class="active" href="/ja/startups/">創業</a></li>
+                <li><a href="/ja/sale/">売買</a></li>
+                <li><a href="/ja/question/">よくある質問</a></li>
+                <hr style="border: 1px solid #D9D9D9; width: 64px;">
+                <li><a class="active" href="/ja/startups/">日本語</a></li>
+                <li><a href="/ko/startups">한국어</a></li>
+                <a class="contact-us" target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div>問い合わせ</div></a>    
+            </ul>
         </nav>
-        </article>
+    </article>
     <header>
         <div class="header-flex">
             <a class="logo-div" href="/ja/">
                 <img alt="logo-houber" src="/assets/houber.png">
             </a>
-            <aside>
-                <li><a href="/ja/" style="color: #ffffff; text-decoration-color: #ffffff;">企業紹介</a></li>
-                <li><a class="active" href="/ja/startups/" style="color: #ffffff; text-decoration-color: #ffffff;">創業</a></li>
-                <li><a href="/ja/sale/" style="color: #ffffff; text-decoration-color: #ffffff;">売買</a></li>
-                <li><a href="/ja/question/" style="color: #ffffff; text-decoration-color: #ffffff;">よくある質問</a></li>
-            </aside>
+            <nav id="nav-list" aria-label="main-nav">
+                <ul>
+                    <li><a href="/ja/" style="color: #ffffff; text-decoration-color: #ffffff;">企業紹介</a></li>
+                    <li><a class="active" href="/ja/startups/" style="color: #ffffff; text-decoration-color: #ffffff;">創業</a></li>
+                    <li><a href="/ja/sale/" style="color: #ffffff; text-decoration-color: #ffffff;">売買</a></li>
+                    <li><a href="/ja/question/" style="color: #ffffff; text-decoration-color: #ffffff;">よくある質問</a></li>    
+                </ul>
+            </nav>
             <div class="setting-div">
                 <a target="_blank" href="http://pf.kakao.com/_qTEPj/chat"><div class="contact-us" style="color: #ffffff;">問い合わせ</div></a>
-                <a class="lang-container">
+                <div class="lang-container">
                     <div class="lang-setting" style="color: #ffffff;" onclick="langSet()">
                         日本語
                         <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="0.6rem" viewBox="0 0 10 6" fill="none">
@@ -92,10 +96,10 @@
                         </svg>
                     </div>
                     <div id="lang-dropdown">
-                        <div onclick="location.href='/ja/startups/'">日本語</div>
-                        <div onclick="location.href='/ko/startups/'">한국어</div>
+                        <a href='/ja/startups/'>日本語</a>
+                        <a href='/ko/startups/'>한국어</a>
                     </div>
-                </a>
+                </div>
             </div>
             <div id="menu-btn" onclick="menuOn()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">

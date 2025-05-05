@@ -150,13 +150,14 @@ header.white {
     flex-direction: column;
     z-index: 1000;
     border-radius: 4px;
-    min-height: 80px;
+    justify-content: center;
+    align-items: center;
 }
   
 #lang-dropdown a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
+    align-content: center;
     cursor: pointer;
     box-sizing: border-box;
     max-height: 40px;
