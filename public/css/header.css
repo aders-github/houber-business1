@@ -237,9 +237,6 @@ header.white {
     align-content: center;
 }
 #mobile-nav-list a {
-    font-size: 2rem;
-}
-#mobile-nav-list ul li a {
     padding: 15px 8px;
     font-size: 20px;
     white-space: nowrap;
