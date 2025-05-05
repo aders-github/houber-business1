@@ -28,6 +28,11 @@ header.white {
     display: none;
 }
 #nav-list ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
     margin: 0;
     padding: 0;
     list-style: none;
@@ -87,10 +92,6 @@ header.white {
     #nav-list,
     .setting-div {
         display: flex;
-    }
-    #nav-list {
-        justify-content: center;
-        gap: 4rem;
     }
     .setting-div {
         justify-content: center;
