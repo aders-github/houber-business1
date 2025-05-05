@@ -70,6 +70,9 @@ header.white {
     text-underline-offset: 10px;
     
 }
+.logo-div {
+    min-width: 200px;
+}
 .logo-div img {
     box-sizing: border-box;
     min-width: 72px;
