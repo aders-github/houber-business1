@@ -23,32 +23,48 @@ header.white {
     padding: 0 24px;
     height: 60px;
 }
-.header-flex aside,
+#nav-list,
 .setting-div {
     display: none;
 }
-aside li {
+#nav-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    /* 초기화: 폰트나 배경, 여백까지 전부 없앰 */
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+#nav-list ul li {
     height: 40px;
     list-style-type: none;
     cursor: pointer;
     align-content: center;
 }
-aside li a {
+#nav-list ul li a {
     padding: 15px 8px;
     font-size: 16px;
     white-space: nowrap;
     word-break: keep-all;
 }
 
-aside li a:hover {
+#nav-list ul li a:hover {
     font-weight: bold;
     background-color: #ffffff13;
     border-radius: 4px;
 }
-.white aside li a:hover {
+.white #nav-list ul li a:hover {
     background-color: #F2F2F2;
 }
-aside li a.active {
+#nav-list ul li a.active {
     font-weight: bold;
     text-decoration: underline 1px solid #000000;
     text-underline-offset: 10px;
