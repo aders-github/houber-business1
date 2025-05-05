@@ -419,6 +419,9 @@
     background-color: #EDF0F9;
     border-radius: 23px;
 }
+#examples .example-nav div:hover{
+    background-color: #D0DCFF;
+}
 #examples .example-nav div.active {
     background-color: #0222B4;
     color: #ffffff;
