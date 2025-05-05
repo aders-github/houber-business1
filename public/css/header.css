@@ -203,13 +203,19 @@ header.white {
     box-sizing: border-box;
     border-bottom: 1px solid #E6E6E6;
 }
-
+#mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 #mobile-nav-list ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
 
     margin: 0;
     padding: 0;
@@ -229,6 +235,9 @@ header.white {
     list-style-type: none;
     cursor: pointer;
     align-content: center;
+}
+#mobile-nav-list a {
+    font-size: 2rem;
 }
 #mobile-nav-list ul li a {
     padding: 15px 8px;
@@ -257,7 +266,7 @@ header.white {
     border-radius: 4px;
     box-sizing: border-box;
 }
-#mobile-nav-list ul li a.active {
+#mobile-nav-list a.active {
     font-weight: bold;
     text-decoration: underline 1px solid #000000;
     text-underline-offset: 10px;
