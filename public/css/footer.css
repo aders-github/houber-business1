@@ -65,7 +65,9 @@ footer p b {
     max-width: 27rem;
     max-height: 15rem;
 }
-.footer-icon a div {
+.foot-sns {
+    object-fit: cover;
+    object-position: center;
     width: 3rem;
     height: 3rem;
 }
@@ -84,11 +86,12 @@ footer p b {
     font-weight: bold;
     /* cursor: pointer; */
 }
+
 #instagram {
-    background: url(/assets/footer/shortcut_instagram.svg) no-repeat center center;
+    background: url() no-repeat center center;
 }
 #blog {
-    background: url(/assets/footer/shortcut_blog.svg) no-repeat center center;
+    background: url() no-repeat center center;
 }
 #youtube {
     background: url(/assets/footer/shortcut_youtube.svg) no-repeat center center;
