@@ -243,7 +243,7 @@ header.white {
     word-break: keep-all;
 }
 
-#mobile-nav-list ul li a:hover {
+#mobile-nav-list a:hover {
     font-weight: bold;
     background-color: #ffffff13;
     border-radius: 4px;
