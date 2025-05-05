@@ -185,32 +185,46 @@ aside li a.active {
     box-sizing: border-box;
     border-bottom: 1px solid #E6E6E6;
 }
-nav {
+
+#mobile-nav-list ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    /* 선택 사항 - 전체 너비를 nav에 맞게 확장
+    width: 100%;
+    height: 100%; */
+
+    /* 초기화: 폰트나 배경, 여백까지 전부 없앰 */
+    background: none;
+    border: none;
+    box-shadow: none;
 }
-nav li {
+#mobile-nav-list li {
     height: 40px;
     list-style-type: none;
     cursor: pointer;
     align-content: center;
 }
-nav li a {
+#mobile-nav-list li a {
     padding: 15px 8px;
     font-size: 20px;
     white-space: nowrap;
     word-break: keep-all;
 }
 
-nav li a:hover {
+#mobile-nav-list li a:hover {
     font-weight: bold;
     background-color: #ffffff13;
     border-radius: 4px;
 }
-nav .contact-us {
+#mobile-nav-list .contact-us {
     box-sizing: border-box;
     width: 92px;
     height: 32px;
@@ -225,7 +239,7 @@ nav .contact-us {
     border-radius: 4px;
     box-sizing: border-box;
 }
-nav li a.active {
+#mobile-nav-list li a.active {
     font-weight: bold;
     text-decoration: underline 1px solid #000000;
     text-underline-offset: 10px;
