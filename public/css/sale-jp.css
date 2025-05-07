@@ -1,16 +1,16 @@
 #s1 {
-    left: calc(50% - 31px);
+    left: calc(50% - 60px);
 }
 
 #s2 {
-    left: calc(50% - 120px);
+    left: calc(50% - 115px);
 }
 
 #s3 {
-    left: calc(50% - 33px);
+    left: calc(50% - 58px);
 }
 #s4 {
-    left: calc(50% - 97px);
+    left: calc(50% - 114px);
 }
 
 @media screen and (min-width: 984px) {

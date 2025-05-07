@@ -57,20 +57,20 @@
 
 #s2 {
     z-index: 2;
-    top: calc(50% - 113px);
+    top: calc(50% - 150px);
     left: calc(50% - 113px);
     box-sizing: border-box;
 }
 
 #s3 {
     z-index: 1;
-    top: calc(50% - 3px);
+    top: calc(50% - 15px);
     left: calc(50% - 63px);
     box-sizing: border-box;
 }
 #s4 {
     z-index: 0;
-    top: calc(50% + 43px);
+    top: calc(50% + 26px);
     left: calc(50% - 120px);
     box-sizing: border-box;
 }
