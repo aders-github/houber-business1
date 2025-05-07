@@ -20,7 +20,7 @@
         left: calc(50% + 12px);
     }
     #s2 {
-        top: calc(50% - 150px);
+        top: calc(50% - 150px) !important;
         left: calc(50% - 81px);
     }
     #s3 {

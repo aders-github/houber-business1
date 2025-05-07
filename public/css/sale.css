@@ -57,7 +57,7 @@
 
 #s2 {
     z-index: 2;
-    top: calc(50% - 150px);
+    top: calc(50% - 120px);
     left: calc(50% - 113px);
     box-sizing: border-box;
 }
