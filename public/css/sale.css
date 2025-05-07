@@ -43,10 +43,10 @@
     transform: translate(-50%, 50px) scale(0.8); /* 초기 상태: 아래로 이동 및 축소 */
     opacity: 0; /* 초기 상태: 투명 */
     transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease; 
-    scale: 0.7;
+    scale: 0.6;
 }
 #s1:hover, #s2:hover, #s3:hover, #s4:hover {
-    scale: 0.77;
+    scale: 0.7;
 }
 #s1 {
     z-index: 3;
