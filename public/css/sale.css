@@ -46,32 +46,32 @@
     scale: 0.6;
 }
 #s1:hover, #s2:hover, #s3:hover, #s4:hover {
-    scale: 0.7;
+    scale: 0.65;
 }
 #s1 {
     z-index: 3;
     top: calc(50% - 153px);
-    left: calc(50% - 37px);
+    left: calc(50% - 65px);
     box-sizing: border-box;
 }
 
 #s2 {
     z-index: 2;
     top: calc(50% - 113px);
-    left: calc(50% - 91px);
+    left: calc(50% - 113px);
     box-sizing: border-box;
 }
 
 #s3 {
     z-index: 1;
     top: calc(50% - 3px);
-    left: calc(50% - 33px);
+    left: calc(50% - 63px);
     box-sizing: border-box;
 }
 #s4 {
     z-index: 0;
     top: calc(50% + 43px);
-    left: calc(50% - 97px);
+    left: calc(50% - 120px);
     box-sizing: border-box;
 }
 
